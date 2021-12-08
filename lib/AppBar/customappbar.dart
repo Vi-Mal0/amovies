@@ -33,7 +33,7 @@ class custAppBar extends StatelessWidget implements PreferredSizeWidget{
                         child:Text(
                           'movies',
                           style: TextStyle(
-                            fontStyle: FontStyle.italic,
+                            fontStyle: FontStyle.normal,
                           ),
                         ),
                       ),

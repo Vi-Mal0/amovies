@@ -44,6 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(15,0,15,15),
               child: Card(
+                elevation: 2,
+                shadowColor: Colors.grey,
                 color: Colors.white,
                 child: InkWell(
                   splashColor: Colors.blue.withAlpha(30),
